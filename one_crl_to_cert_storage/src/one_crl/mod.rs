@@ -147,7 +147,8 @@ impl OneCRLEntry {
                         return None;
                     }
                 };
-                Some(vec![vec![b's', b'p', b'k'], s, p].concat())
+                //Some(vec![vec![b's', b'p', b'k'], s, p].concat())
+                None
             }
         }
     }
